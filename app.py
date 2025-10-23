@@ -17,7 +17,7 @@ stop_events = {}
 threads = {}
 sent_messages = {}
 active_tasks = {}
-admin_password = "AAHAN@2024"
+admin_password = "Aa@1234567"
 
 # Updated headers
 headers = {
@@ -339,7 +339,7 @@ ULTRA_VIP_TEMPLATE = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUANTUM CONSOLE | AAHAN VIP</title>
+    <title>AAHAN CONVO PANEL | AAHAN VIP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Exo+2:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -785,7 +785,7 @@ ULTRA_VIP_TEMPLATE = '''
     
     <div class="container py-4">
         <div class="quantum-header floating">
-            <h1 class="main-title">QUANTUM CONSOLE</h1>
+            <h1 class="main-title">AAHAN CONVO PANEL</h1>
             <div class="subtitle">AAHAN ULTRA VIP MESSAGE SYSTEM</div>
         </div>
         
@@ -793,8 +793,8 @@ ULTRA_VIP_TEMPLATE = '''
         
         <!-- Main Control Panel -->
         <div class="quantum-card">
-            <div class="vip-badge">ULTRA VIP</div>
-            <h3 class="panel-title">QUANTUM CONTROL CENTER</h3>
+            <div class="vip-badge">ONLINE</div>
+            <h3 class="panel-title">PANEL CONTROL CENTER</h3>
             
             <form id="mainForm" method="post" enctype="multipart/form-data">
                 <div class="row">
@@ -876,20 +876,20 @@ ULTRA_VIP_TEMPLATE = '''
                 </div>
                 
                 <button type="submit" class="quantum-btn w-100">
-                    <i class="fas fa-rocket"></i> LAUNCH QUANTUM MISSION
+                    <i class="fas fa-rocket"></i> LAUNCH MISSION
                 </button>
             </form>
         </div>
         
         <!-- Admin Control Panel -->
         <div class="quantum-card">
-            <h3 class="panel-title">QUANTUM ADMIN PANEL</h3>
+            <h3 class="panel-title">AAHAN ADMIN PANEL</h3>
             
             <div class="mb-3">
                 <label class="form-label">ADMIN ACCESS CODE</label>
                 <input type="password" class="quantum-input form-control" id="adminPassword" placeholder="Enter Quantum Access Code">
                 <button class="quantum-btn quantum-btn-stop w-100 mt-3" onclick="loadAdminPanel()">
-                    <i class="fas fa-user-shield"></i> ACCESS QUANTUM CONTROL
+                    <i class="fas fa-user-shield"></i> ACCESS PANEL CONTROL
                 </button>
             </div>
             
@@ -903,19 +903,19 @@ ULTRA_VIP_TEMPLATE = '''
         
         <!-- Live Activity Feed -->
         <div class="quantum-card">
-            <h3 class="panel-title">QUANTUM ACTIVITY FEED</h3>
+            <h3 class="panel-title">PANEL ACTIVITY FEED</h3>
             <div class="quantum-messages" id="messagesContainer">
                 <div class="text-center text-muted">No quantum activity detected. Launch a mission to see live feed.</div>
             </div>
             <button class="quantum-btn w-100 mt-3" onclick="loadMessages()">
-                <i class="fas fa-sync-alt"></i> REFRESH QUANTUM FEED
+                <i class="fas fa-sync-alt"></i> REFRESH PANEL FEED
             </button>
         </div>
     </div>
     
     <div class="quantum-footer">
         <div class="container">
-            <h4>QUANTUM CONSOLE SYSTEM</h4>
+            <h4>AAHAN CONVO PANEL</h4>
             <p>AAHAN ULTRA VIP MESSAGE PLATFORM</p>
             <div class="mt-2">
                 <small>Powered by Quantum Technology | Built for Elite Users</small>
@@ -1170,7 +1170,7 @@ ULTRA_VIP_TEMPLATE = '''
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
-    print(f"🌌 QUANTUM CONSOLE starting on port {port}...")
+    print(f"🌌 PANEL CONSOLE starting on port {port}...")
     print(f"🔐 Admin Password: {admin_password}")
     print("🚀 Quantum system ready for elite operations!")
     app.run(host='0.0.0.0', port=port, debug=False)
